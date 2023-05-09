@@ -2,7 +2,7 @@ import flatten              from 'array-flatten'
 import { ServiceRecord }    from './service'
 import deepEqual            from 'fast-deep-equal/es6'
 
-import MulticastDNS         from 'multicast-dns'
+import MulticastDNS         from 'mdns-server'
 import dnsEqual             from 'dns-equal'
 
 export class Server {
