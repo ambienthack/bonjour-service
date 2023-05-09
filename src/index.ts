@@ -14,7 +14,7 @@ export class Bonjour {
      * @param opts ServiceConfig | undefined
      * @param errorCallback Function | undefined
      */
-    constructor(opts?: ServiceConfig | undefined, errorCallback?: Function | undefined) {
+    constructor(opts?: any | undefined, errorCallback?: Function | undefined) {
         this.server     = new Server(opts, errorCallback)
         this.registry   = new Registry(this.server)
     }
